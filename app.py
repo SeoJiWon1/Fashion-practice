@@ -22,7 +22,7 @@ col1, col2, col3, col4 = st.columns(4)
 
 with col1:
    st.header("Spring")
-   st.image("./com/1980패션 봄.jpg")
+   st.image("./1980 image/1980패션 봄.jpg")
 
 with col2:
    st.header("Summer")
