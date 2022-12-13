@@ -24,7 +24,7 @@ with col1:
 
 with col2:
    st.header("Summer")
-   st.image("./1980 image/1980패션 여름.jpg")
+   st.image("./1980 image/1980패션 여름.jpg",width=240)
 with col3:
     st.header("Fall")
     st.image("./1980 image/1980패션 가을.jpg")
