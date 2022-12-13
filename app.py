@@ -35,7 +35,7 @@ with col4:
     st.header("Winter")
     st.image("./1980 image/1980패션 겨울.jpg")
 
-st.markdown("### 2022's Fashion")
+st.markdown("### 2020's Fashion")
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
