@@ -7,7 +7,7 @@ st.set_page_config("Fashion Trand")
 
 
 st.image("./2020 image/유아인.png"), #카메라
-)
+
 
 st.header("1980's Fashion vs 2020's Fashion")
 
