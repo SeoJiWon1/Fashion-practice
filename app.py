@@ -26,16 +26,14 @@ with col1:
 
 with col2:
    st.header("Summer")
-   st.image("https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_1280.jpg")
-
+   st.image("./1980 image/1980패션 여름.jpg")
 with col3:
     st.header("Fall")
-    st.image("https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg")
+    st.image("./1980 image/1980패션 가을.jpg")
 
 with col4:
     st.header("Winter")
-    st.image("https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg")
-
+    st.image("./1980 image/1980패션 겨울.jpg")
 
 st.markdown("### 2022's Fashion")
 col1, col2, col3, col4 = st.columns(4)
