@@ -20,11 +20,11 @@ col1, col2, col3, col4 = st.columns(4)
 
 with col1:
    st.header("Spring")
-   st.image("./1980 image/1980패션 봄.jpg", width=240)
+   st.image("./1980 image/1980패션 봄.jpg", height=300)
 
 with col2:
    st.header("Summer")
-   st.image("./1980 image/1980패션 여름.jpg",width=240)
+   st.image("./1980 image/1980패션 여름.jpg")
 with col3:
     st.header("Fall")
     st.image("./1980 image/1980패션 가을.jpg")
