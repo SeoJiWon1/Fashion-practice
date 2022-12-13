@@ -6,8 +6,7 @@ import streamlit as st
 st.set_page_config("Fashion Trand")
 
 
-st.image(
-    "https://www.musinsastudio.com/v2/share.jpg", #카메라
+st.image("./1980 image/유아인.png"), #카메라
     width=340,
 )
 
