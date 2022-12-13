@@ -40,16 +40,16 @@ col1, col2, col3, col4 = st.columns(4)
 
 with col1:
    st.header("Spring")
-   st.image("https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg")
+   st.image("./2020 image/2020패션 봄.jpg")
 
 with col2:
    st.header("Summer")
-   st.image("https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_1280.jpg")
+   st.image("./2020 image/2020패션 여름.jpg")
 
 with col3:
     st.header("Fall")
-    st.image("https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg")
+    st.image("./2020 image/2020패션 가을.jpg")
 
 with col4:
     st.header("Winter")
-    st.image("https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg")
+    st.image("./2020 image/2020패션 겨울.jpg")
