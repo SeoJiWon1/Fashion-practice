@@ -7,8 +7,8 @@ st.set_page_config("1980's P vs 2020's P")
 
 
 st.image(
-    "https://rlyfaazj0.toastcdn.net/20221019/145434.523656000/106827397_1.png", #카메라
-    width=240,
+    "https://www.musinsastudio.com/v2/share.jpg", #카메라
+    width=340,
 )
 
 st.header("1980's Fashion vs 2020's Fashion")
