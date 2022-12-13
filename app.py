@@ -3,7 +3,7 @@ import streamlit as st
 # import cv2
 
 
-st.set_page_config("1980's P vs 2020's P")
+st.set_page_config("Fashion Trand")
 
 
 st.image(
