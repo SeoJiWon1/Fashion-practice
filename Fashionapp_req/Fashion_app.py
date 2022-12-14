@@ -75,5 +75,5 @@ values = [1921,1359,8311,2697,964,584,3386]
 fig = go.Figure(data=[go.Pie(labels=labels, values=values)])
 st.plotly_chart(fig)
 
-fashion_market = pd.pivot_table(fashion, index = 'index')
+fashion_market = pd.pivot_table(Fashion, index = 'index')
 st.write(fashion_market)
