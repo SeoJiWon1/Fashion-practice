@@ -81,3 +81,7 @@ st.plotly_chart(fig)
 
 fashion_market = pd.pivot_table(Fashion, index = 'index')
 st.write(fashion_market)
+
+st.write("")
+"copyright by JiWon Seo & Chaewon Im"
+st.write("")
