@@ -66,4 +66,4 @@ import numpy as pd
 import plotly.express as px
 
 st.header("Size of the fashion market for all items")
-st.bar_chart(fashion, width = 150, height = 600)
+st.bar_chart(Fashion, width = 150, height = 600)
