@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as pd
-
 import pandas as pd
 # from streamlit_image_comparison import image_comparison
 # import cv2
@@ -64,12 +63,10 @@ add_selectbox = st.sidebar.selectbox("신발 온라인 쇼핑몰", ("러블리�
 Fashion = pd.read_csv('./df/2020-2022_fashion_marketing.csv')
 st.write(Fashion)
 
+import matplotlib.pyplot as plt 
+import seaborn as sns 
 st.header("Size of the fashion market for all items")
 st.bar_chart(Fashion, width = 150, height = 600)
 
 
 
-# sns.histplot(data=Fashion, x='2022_SS')
-st.countplot(data=Fashion, x="2021" )
-plt.title("타이타닉호의 각 클래스별, 승객 수")
-plt.show()
