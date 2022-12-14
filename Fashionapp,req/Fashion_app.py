@@ -63,10 +63,10 @@ add_selectbox = st.sidebar.selectbox("신발 온라인 쇼핑몰", ("러블리�
 Fashion = pd.read_csv('./df/2020-2022_fashion_marketing.csv')
 st.write(Fashion)
 
-import matplotlib.pyplot as plt 
-import seaborn as sns 
+
 st.header("Size of the fashion market for all items")
 st.bar_chart(Fashion, width = 150, height = 600)
 
-
+import matplotlib.pyplot as plt 
+import seaborn as sns 
 
