@@ -62,3 +62,6 @@ Fashion = pd.read_csv('./df/2020-2022_fashion_marketing.csv')
 st.write(Fashion)
 
 import numpy as pd
+import plotly.express as px
+st.header("Size of the fashion market for all items")
+st.bar_chart(fashion, width = 150, height = 600)
