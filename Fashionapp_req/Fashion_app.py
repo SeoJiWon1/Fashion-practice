@@ -75,5 +75,3 @@ values = [1921,1359,8311,2697,964,584,3386]
 fig = go.Figure(data=[go.Pie(labels=labels, values=values)])
 st.plotly_chart(fig)
 
-fig2 = sns.histplot(data=Fashion, x='index')
-st.pyplot(fig2)
