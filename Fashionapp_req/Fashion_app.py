@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as pd
 import pandas as pd
-
+import seaborn as sns
 
 
 st.set_page_config("Fashion Trand")
