@@ -1,8 +1,10 @@
 import streamlit as st
 import numpy as pd
 import pandas as pd
-# from streamlit_image_comparison import image_comparison
-# import cv2
+import matplotlib.pyplot as plt 
+import seaborn as sns 
+import plotly.express as px
+
 
 
 st.set_page_config("Fashion Trand")
@@ -68,5 +70,5 @@ st.header("Size of the fashion market for all items")
 st.bar_chart(Fashion, width = 150, height = 600)
 
 
-import seaborn as sns 
+
 
