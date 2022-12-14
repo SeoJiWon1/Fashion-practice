@@ -57,6 +57,6 @@ add_selectbox = st.sidebar.selectbox("남성패션 온라인 쇼핑몰", ("무�
 add_selectbox = st.sidebar.selectbox("액세서리 온라인 쇼핑몰", ("도나앤디","러블링","윙블링"))
 add_selectbox = st.sidebar.selectbox("신발 온라인 쇼핑몰", ("러블리슈즈", "보가", "사뿐",))
 
-
+import pandas as pd
 Fashion = pd.read_csv('./df/2020-2022_fashion_marketing.csv')
 st.write(Fashion)
