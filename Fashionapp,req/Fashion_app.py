@@ -1,9 +1,6 @@
 import streamlit as st
 import numpy as pd
 import pandas as pd
-import matplotlib.pyplot as plt 
-import seaborn as sns 
-import plotly.express as px
 
 
 
@@ -68,6 +65,7 @@ st.write(Fashion)
 
 st.header("Size of the fashion market for all items")
 st.bar_chart(Fashion, width = 150, height = 600)
+
 
 
 
