@@ -67,7 +67,9 @@ st.write(Fashion)
 st.header("Size of the fashion market for all items")
 st.bar_chart(Fashion, width = 150, height = 600)
 
-#inmport seaborn as sns
 
 import seaborn as sns
-sns.histplot(data=Fashion, x='2022_SS')
+# sns.histplot(data=Fashion, x='2022_SS')
+sns.countplot(x="2022_SS", data=Fashion)
+plt.title("타이타닉호의 각 클래스별, 승객 수")
+plt.show()
