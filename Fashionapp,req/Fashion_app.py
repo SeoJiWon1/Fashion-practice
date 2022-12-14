@@ -70,6 +70,6 @@ st.bar_chart(Fashion, width = 150, height = 600)
 
 
 # sns.histplot(data=Fashion, x='2022_SS')
-sns.countplot(data=Fashion, x="2021" )
+st.countplot(data=Fashion, x="2021" )
 plt.title("타이타닉호의 각 클래스별, 승객 수")
 plt.show()
