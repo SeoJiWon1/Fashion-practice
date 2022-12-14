@@ -66,8 +66,7 @@ st.write(Fashion)
 st.header("Size of the fashion market for all items")
 st.bar_chart(Fashion, width = 150, height = 600)
 
-# import plotly.graph_objects as go
-import plotly.graph_objs as go
+import plotly.graph_objects as go
 
 labels = ['Male_formal','Female_formal','Casual','Sprots','Inner','kids','Shoes']
 values = [1921,1359,8311,2697,964,584,3386]
