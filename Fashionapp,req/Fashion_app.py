@@ -66,8 +66,7 @@ st.write(Fashion)
 st.header("Size of the fashion market for all items")
 st.bar_chart(Fashion, width = 150, height = 600)
 
-import seaborn as sns
-sns.pairplot(data = Fashion)
+
 
 
 
