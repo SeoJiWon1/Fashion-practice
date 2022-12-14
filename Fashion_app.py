@@ -59,4 +59,3 @@ add_selectbox = st.sidebar.selectbox("신발 온라인 쇼핑몰", ("러블리�
 
 
 df = pd.read_csv('SeoJiWon1/com/2020-2022_fashion_marketing.csv')
-df
