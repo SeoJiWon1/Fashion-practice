@@ -69,4 +69,5 @@ st.bar_chart(Fashion, width = 150, height = 600)
 
 #inmport seaborn as sns
 
+import seaborn as sns
 st.histplot(data=Fashion, x='2022_SS')
