@@ -7,7 +7,7 @@ import seaborn as sns
 st.set_page_config("Fashion Trand")
 
 
-st.image("./Fashion/2020 image/유아인.png") #카메라
+st.image("./Fashion/2020 image/유아인.png") # 무신사 사진
 
 
 st.header("1980's Fashion vs 2020's Fashion")
@@ -19,6 +19,7 @@ st.write("")
 st.markdown("### 1980's Fashion")
 col1, col2, col3, col4 = st.columns(4)
 
+# 1980년대 계절별 사진 
 with col1:
    st.header("Spring")
    st.image("./Fashion/1980 image/1980패션 봄.jpg")
@@ -37,6 +38,7 @@ with col4:
 st.markdown("### 2020's Fashion")
 col1, col2, col3, col4 = st.columns(4)
 
+# 2020년대 계절별 사진
 with col1:
    st.header("Spring")
    st.image("./Fashion/2020 image/2020패션 봄.jpg")
@@ -53,6 +55,7 @@ with col4:
     st.header("Winter")
     st.image("./Fashion/2020 image/2020패션 겨울.jpg")
 
+# 왼쪽 여러쇼핑몰 
 add_selectbox = st.sidebar.selectbox("여성패션 온라인 쇼핑몰", ("45번가", "갠소", "고고싱","그녀희재","그레이시크"))
 add_selectbox = st.sidebar.selectbox("남성패션 온라인 쇼핑몰", ("무신사", "디에프디", "힙합퍼",))
 add_selectbox = st.sidebar.selectbox("액세서리 온라인 쇼핑몰", ("도나앤디","러블링","윙블링"))
@@ -68,6 +71,7 @@ st.bar_chart(Fashion, width = 150, height = 600)
 
 import plotly.graph_objects as go
 
+# 2022년SS 파이차트 
 st.header("2022_SS pie chart")
 labels = ['Male_formal','Female_formal','Casual','Sprots','Inner','kids','Shoes']
 values = [1921,1359,8311,2697,964,584,3386]
