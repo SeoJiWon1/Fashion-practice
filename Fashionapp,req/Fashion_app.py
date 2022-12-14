@@ -66,3 +66,7 @@ st.write(Fashion)
 
 st.header("Size of the fashion market for all items")
 st.bar_chart(Fashion, width = 150, height = 600)
+
+inmport seaborn as sns
+
+sns.histplot(data=Fashion, x='index', y= '2022_SS')
