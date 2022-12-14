@@ -60,3 +60,5 @@ add_selectbox = st.sidebar.selectbox("신발 온라인 쇼핑몰", ("러블리�
 import pandas as pd
 Fashion = pd.read_csv('./df/2020-2022_fashion_marketing.csv')
 st.write(Fashion)
+
+import numpy as pd
