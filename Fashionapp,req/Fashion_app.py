@@ -66,7 +66,7 @@ st.write(Fashion)
 st.header("Size of the fashion market for all items")
 st.bar_chart(Fashion, width = 150, height = 600)
 
-
+sns.pairplot(data = Fashion)
 
 
 
